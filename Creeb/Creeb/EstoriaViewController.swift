@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  EstoriaViewController
 //  Creeb
 //
 //  Created by Abner Josue Viana Matos on 11/09/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class EstoriaViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

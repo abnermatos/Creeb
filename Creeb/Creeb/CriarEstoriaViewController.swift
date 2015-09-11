@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  CriarEstoriaViewController.swift
 //  Creeb
 //
 //  Created by Abner Josue Viana Matos on 11/09/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class CriarEstoriaViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
