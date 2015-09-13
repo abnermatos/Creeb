@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E3C30DE1BA601E10000048C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3C30DA1BA601E10000048C /* Bolts.framework */; };
+		4E3C30DF1BA601E10000048C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3C30DB1BA601E10000048C /* Parse.framework */; };
+		4E3C30E01BA601E10000048C /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3C30DC1BA601E10000048C /* ParseFacebookUtils.framework */; };
+		4E3C30E11BA601E10000048C /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3C30DD1BA601E10000048C /* ParseFacebookUtilsV4.framework */; };
+		4E3C30E51BA601F80000048C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3C30E21BA601F80000048C /* Bolts.framework */; };
+		4E3C30E61BA601F80000048C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3C30E31BA601F80000048C /* FBSDKCoreKit.framework */; };
+		4E3C30E71BA601F80000048C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3C30E41BA601F80000048C /* FBSDKLoginKit.framework */; };
+		4E3C30E91BA60AC00000048C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3C30E81BA60AC00000048C /* AudioToolbox.framework */; };
+		4E3C30EB1BA60AC80000048C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3C30EA1BA60AC80000048C /* CFNetwork.framework */; };
+		4E3C30ED1BA60AD40000048C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3C30EC1BA60AD40000048C /* CoreGraphics.framework */; };
+		4E3C30EF1BA60ADA0000048C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3C30EE1BA60ADA0000048C /* CoreLocation.framework */; };
+		4E3C30F11BA60AE10000048C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3C30F01BA60AE10000048C /* Security.framework */; };
+		4E3C30F31BA60AE90000048C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3C30F21BA60AE90000048C /* QuartzCore.framework */; };
+		4E3C30F51BA60AF90000048C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3C30F41BA60AF90000048C /* StoreKit.framework */; };
+		4E3C30F71BA60B0C0000048C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3C30F61BA60B0B0000048C /* libz.tbd */; };
+		4E3C30F91BA60B160000048C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3C30F81BA60B160000048C /* SystemConfiguration.framework */; };
+		4E3C30FB1BA60B280000048C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3C30FA1BA60B280000048C /* libsqlite3.tbd */; };
 		CB80C0051BA356A800B41C7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80C0041BA356A800B41C7F /* AppDelegate.swift */; };
 		CB80C0071BA356A800B41C7F /* CriarEstoriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80C0061BA356A800B41C7F /* CriarEstoriaViewController.swift */; };
 		CB80C0091BA356A800B41C7F /* EstoriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80C0081BA356A800B41C7F /* EstoriaViewController.swift */; };
@@ -44,6 +61,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E3C30DA1BA601E10000048C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Creeb/Bolts.framework; sourceTree = "<group>"; };
+		4E3C30DB1BA601E10000048C /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Creeb/Parse.framework; sourceTree = "<group>"; };
+		4E3C30DC1BA601E10000048C /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = Creeb/ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		4E3C30DD1BA601E10000048C /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = Creeb/ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		4E3C30E21BA601F80000048C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Creeb/Bolts.framework; sourceTree = "<group>"; };
+		4E3C30E31BA601F80000048C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Creeb/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		4E3C30E41BA601F80000048C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = Creeb/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		4E3C30E81BA60AC00000048C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4E3C30EA1BA60AC80000048C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4E3C30EC1BA60AD40000048C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4E3C30EE1BA60ADA0000048C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4E3C30F01BA60AE10000048C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4E3C30F21BA60AE90000048C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4E3C30F41BA60AF90000048C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		4E3C30F61BA60B0B0000048C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4E3C30F81BA60B160000048C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4E3C30FA1BA60B280000048C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		CB80C0011BA356A800B41C7F /* Creeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Creeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB80C0041BA356A800B41C7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB80C0061BA356A800B41C7F /* CriarEstoriaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriarEstoriaViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +108,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E3C30FB1BA60B280000048C /* libsqlite3.tbd in Frameworks */,
+				4E3C30F91BA60B160000048C /* SystemConfiguration.framework in Frameworks */,
+				4E3C30F71BA60B0C0000048C /* libz.tbd in Frameworks */,
+				4E3C30F51BA60AF90000048C /* StoreKit.framework in Frameworks */,
+				4E3C30F31BA60AE90000048C /* QuartzCore.framework in Frameworks */,
+				4E3C30F11BA60AE10000048C /* Security.framework in Frameworks */,
+				4E3C30EF1BA60ADA0000048C /* CoreLocation.framework in Frameworks */,
+				4E3C30ED1BA60AD40000048C /* CoreGraphics.framework in Frameworks */,
+				4E3C30EB1BA60AC80000048C /* CFNetwork.framework in Frameworks */,
+				4E3C30E91BA60AC00000048C /* AudioToolbox.framework in Frameworks */,
+				4E3C30E51BA601F80000048C /* Bolts.framework in Frameworks */,
+				4E3C30E61BA601F80000048C /* FBSDKCoreKit.framework in Frameworks */,
+				4E3C30DF1BA601E10000048C /* Parse.framework in Frameworks */,
+				4E3C30DE1BA601E10000048C /* Bolts.framework in Frameworks */,
+				4E3C30E71BA601F80000048C /* FBSDKLoginKit.framework in Frameworks */,
+				4E3C30E11BA601E10000048C /* ParseFacebookUtilsV4.framework in Frameworks */,
+				4E3C30E01BA601E10000048C /* ParseFacebookUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +145,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E3C30FC1BA60B330000048C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E3C30E21BA601F80000048C /* Bolts.framework */,
+				4E3C30E31BA601F80000048C /* FBSDKCoreKit.framework */,
+				4E3C30E41BA601F80000048C /* FBSDKLoginKit.framework */,
+				4E3C30DA1BA601E10000048C /* Bolts.framework */,
+				4E3C30DB1BA601E10000048C /* Parse.framework */,
+				4E3C30DC1BA601E10000048C /* ParseFacebookUtils.framework */,
+				4E3C30DD1BA601E10000048C /* ParseFacebookUtilsV4.framework */,
+				4E3C30FA1BA60B280000048C /* libsqlite3.tbd */,
+				4E3C30F81BA60B160000048C /* SystemConfiguration.framework */,
+				4E3C30F61BA60B0B0000048C /* libz.tbd */,
+				4E3C30F41BA60AF90000048C /* StoreKit.framework */,
+				4E3C30F21BA60AE90000048C /* QuartzCore.framework */,
+				4E3C30F01BA60AE10000048C /* Security.framework */,
+				4E3C30EE1BA60ADA0000048C /* CoreLocation.framework */,
+				4E3C30EC1BA60AD40000048C /* CoreGraphics.framework */,
+				4E3C30EA1BA60AC80000048C /* CFNetwork.framework */,
+				4E3C30E81BA60AC00000048C /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CB80BFF81BA356A800B41C7F = {
 			isa = PBXGroup;
 			children = (
+				4E3C30FC1BA60B330000048C /* Frameworks */,
 				CB80C0031BA356A800B41C7F /* Creeb */,
 				CB80C01A1BA356A800B41C7F /* CreebTests */,
 				CB80C0251BA356A800B41C7F /* CreebUITests */,
@@ -456,6 +532,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Creeb",
+				);
 				INFOPLIST_FILE = Creeb/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.fucapi.bepid.Creeb;
@@ -468,6 +548,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Creeb",
+				);
 				INFOPLIST_FILE = Creeb/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.fucapi.bepid.Creeb;
@@ -542,6 +626,7 @@
 				CB80C02D1BA356A800B41C7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB80C02E1BA356A800B41C7F /* Build configuration list for PBXNativeTarget "CreebTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +635,7 @@
 				CB80C0301BA356A800B41C7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB80C0311BA356A800B41C7F /* Build configuration list for PBXNativeTarget "CreebUITests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +644,7 @@
 				CB80C0331BA356A800B41C7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
