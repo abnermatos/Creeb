@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Initialize Parse.
         Parse.setApplicationId("tkVY8sIqCefsTKXvxSIi51lEfcZgZ8npKmDmP2wZ",
             clientKey: "lDe4KGB9aTwqoHxKnDC6P3S0COVRuanIlXxxe9eq")
+        
         return true
     }
 
